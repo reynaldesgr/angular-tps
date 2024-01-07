@@ -1,0 +1,9 @@
+<div class="w3-col s6">
+    <div *ngIf="students[0] as std" class="card">
+        <img [src]="std.picture" alt="Avatar">
+        <div class="container">
+            <h4><b>{{std.name}}</b></h4>
+            <p>{{std.dateOfBirth}}</p>
+        </div>
+    </div>
+</div>
